@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class STRF;
 class RRB;
@@ -66,7 +66,7 @@ class RRB
 							i=b;
 							break;
 						}
-			//	}
+				}
 			}
 			cout<<"\naverage wait time = "<<awt/n;
 			cout<<"\naverage turn around time ="<<atat/n<<endl;
@@ -131,4 +131,5 @@ int main()
 	RRB y(p,n);
 	y.compute();
 	printf("\n");
+	return 0;
 }
